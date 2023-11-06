@@ -7,6 +7,7 @@ import { FoodService } from '../services/food/food.service';
   templateUrl: './tags.component.html',
   styleUrls: ['./tags.component.css']
 })
+
 export class TagsComponent implements OnInit{
   @Input()
   foodPageTags?: string[];
