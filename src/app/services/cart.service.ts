@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-
 import { Foods } from '../shared/models/food';
 import { Cart } from '../shared/models/Cart';
 import { CartItem } from '../shared/models/Cartitem';
@@ -7,6 +6,7 @@ import { CartItem } from '../shared/models/Cartitem';
 @Injectable({
   providedIn: 'root'
 })
+  
 export class CartService {
   private cart:Cart = new Cart();
   
@@ -32,4 +32,5 @@ export class CartService {
   getCart(): Cart {
     return this.cart;
   }
+  
 }
