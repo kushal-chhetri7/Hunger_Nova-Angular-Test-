@@ -32,5 +32,4 @@ export class StarRatingComponent {
     : 'star-empty';
     return `/assets/stars/${imageName}.svg`;
   }
-
 }
