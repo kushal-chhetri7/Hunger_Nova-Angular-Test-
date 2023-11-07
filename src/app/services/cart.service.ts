@@ -32,5 +32,4 @@ export class CartService {
   getCart(): Cart {
     return this.cart;
   }
-  
 }
