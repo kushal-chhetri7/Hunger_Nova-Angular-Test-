@@ -25,5 +25,4 @@ export class HomeComponent implements OnInit {
     this.foods = this.fs.getAll();
     });
   }
-
 }
